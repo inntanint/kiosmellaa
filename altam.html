@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Altam & Albeg — Kios Mellaa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="padding-bottom: 90px;">
+<div class="back-bar">
+  <button onclick="location.href='index.html'">← Kembali ke Menu</button>
+</div>
+
+<section class="food-hero">
+  <div class="ring">⛏️</div>
+  <div class="kicker">Kios Mellaa</div>
+  <h1>Altam & Albeg</h1>
+
+      <div class="level-pill">
+        <span>Level Hay Day</span>
+        <input type="number" id="levelInput" value="1000" min="1" max="1000">
+      </div>
+    </section>
+
+<div class="search-wrap">
+  <div class="search-box">
+    <span class="ic">⌕</span>
+    <input type="text" id="searchInput" placeholder="Cari alat...">
+  </div>
+</div>
+
+<div class="chip-row" id="chipRow"></div>
+<div class="qty-hint">+ / − nambah 5 item sekali klik</div>
+
+<div class="list-toolbar">
+  <span id="showingLabel">0 alat</span>
+  <select id="sortSelect">
+    <option value="level-asc">Level terendah</option>
+    <option value="level-desc">Level tertinggi</option>
+    <option value="price-asc">Harga terendah</option>
+    <option value="price-desc">Harga tertinggi</option>
+    <option value="name-asc">Nama A-Z</option>
+  </select>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<button class="cart-fab" id="cartFab">
+  <span class="left">
+    <span class="badge" id="fabCount">0</span>
+    <span class="label">Lihat Keranjang</span>
+  </span>
+  <span class="price" id="fabPrice">Rp 0</span>
+</button>
+
+<div class="overlay" id="overlay"></div>
+<div class="drawer" id="drawer">
+  <div class="drawer-handle"></div>
+  <div class="drawer-head">
+    <h2>Keranjang Kamu</h2>
+    <button id="clearCartBtn">Kosongkan</button>
+  </div>
+  <div class="drawer-items" id="drawerItems"></div>
+  <div class="drawer-foot">
+    <div class="drawer-total">
+      <span>Total Barang</span>
+      <span id="drawerTotalQty">0 item</span>
+    </div>
+    <div class="drawer-total">
+      <span>Total Harga</span>
+      <span id="drawerTotal">Rp 0</span>
+    </div>
+    <button class="checkout-btn" id="waBtn">Kirim ke WhatsApp 📲</button>
+  </div>
+</div>
+
+<script src="altam-data.js"></script>
+<script>
+  window.SHOP_CONFIG = {
+    menuId: "altam",
+    itemLabel: "alat",
+    waTitle: "Altam & Albeg",
+    fallbackIcon: "⛏️",
+    step: 5
+  };
+</script>
+<script src="shop-engine.js"></script>
+</body>
+</html>

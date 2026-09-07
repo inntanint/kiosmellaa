@@ -89,10 +89,7 @@
   .menu-card .info .title{ font-weight:800; font-size:16.5px; margin-bottom:3px; }
   .menu-card .info .desc{ font-size:12.5px; color: var(--muted); line-height:1.4; }
   .menu-card .arrow{ color: var(--muted); font-size:18px; }
-  .menu-card.voucher .info .title{
-    background: linear-gradient(90deg, #C1484A, #E0AC2E, #6E8C4E, #4E7CB8, #9B59B6);
-    -webkit-background-clip: text; background-clip: text; color: transparent;
-  }
+ 
   .footer-note{ text-align:center; color: var(--muted); font-size:12px; padding: 0 20px 30px; }
 
   /* ================= PLACEHOLDER SCREENS ================= */

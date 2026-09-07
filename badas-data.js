@@ -10,8 +10,8 @@ const ITEMS = [
   {name:"Sirup", level:18, category:"Badas Gula", img:"images/3.3.jpeg", price:20},
 
   {name:"Sarang Madu", level:39, category:"Badas Lebah", img:"images/16.1.jpeg", price:20},
-  {name:"Madu", level:39, category:"Badas Lebah", img:"images/16.1.jpeg", price:30},
-  {name:"Lilin Lebah", level:48, category:"Badas Lebah", img:"images/16.2.jpeg", price:30},
+  {name:"Madu", level:39, category:"Badas Lebah", img:"images/16.2.jpeg", price:30},
+  {name:"Lilin Lebah", level:48, category:"Badas Lebah", img:"images/16.3.jpeg", price:30},
 
   {name:"Ikan", level:27, category:"Badas Kolam", img:"images/50.1.jpeg", price:20},
   {name:"Lobster", level:44, category:"Badas Kolam", img:"images/50.2.jpeg", price:30},

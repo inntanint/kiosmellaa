@@ -3,7 +3,7 @@ const ITEMS = [
   {name:"Krim", level:6, category:"Badas Susu", img:"images/2.1.jpeg", price:20},
   {name:"Mentega", level:9, category:"Badas Susu", img:"images/2.2.jpeg", price:20},
   {name:"Keju Sapi", level:12, category:"Badas Susu", img:"images/2.3.jpeg", price:20},
-  {name:"Keju Kambing", level:33, category:"Badas Susu", img:"images/2.4.jpeg", price:20},
+  {name:"Keju Kambing", level:33, category:"Badas Susu", img:"images/2.4.jpeg", price:30},
 
   {name:"Gula Coklat", level:7, category:"Badas Gula", img:"images/3.1.jpeg", price:20},
   {name:"Gula Putih", level:13, category:"Badas Gula", img:"images/3.2.jpeg", price:20},

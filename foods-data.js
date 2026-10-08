@@ -67,7 +67,7 @@ const ITEMS = [
   {name:"Pai Jamur", level:97, category:"Oven Pai", img:"images/6.14.jpeg", price:40},
   {name:"Parmesan Terong", level:99, category:"Oven Pai", img:"images/6.15.jpeg", price:40},
 
-  {name:"Sweter", level:17, category:"Mesin Tenun", img:"images/7.1.jpeg", price:40},
+  {name:"Sweter", level:17, category:"Mesin Tenun", img:"images/7.1.jpeg", price:30},
   {name:"Kain Katun", level:18, category:"Mesin Tenun", img:"images/7.2.jpeg", price:20},
   {name:"Kupluk Biru", level:19, category:"Mesin Tenun", img:"images/7.3.jpeg", price:40},
   {name:"Sweter Biru", level:20, category:"Mesin Tenun", img:"images/7.4.jpeg", price:40},
@@ -286,7 +286,7 @@ const ITEMS = [
   {name:"Hot Dog Jagung", level:78, category:"Stan Hot Dog", img:"images/32.3.jpeg", price:40},
   {name:"Sosis Bawang", level:80, category:"Stan Hot Dog", img:"images/32.4.jpeg", price:40},
 
-  {name:"Donat Klasik", level:76, category:"Pembuat Donat", img:"images/33.1.jpeg", price:40},
+  {name:"Donat Klasik", level:76, category:"Pembuat Donat", img:"images/33.1.jpeg", price:30},
   {name:"Donat Meses", level:79, category:"Pembuat Donat", img:"images/33.2.jpeg", price:40},
   {name:"Donat Kacang", level:82, category:"Pembuat Donat", img:"images/33.3.jpeg", price:40},
   {name:"Donat Krim", level:86, category:"Pembuat Donat", img:"images/33.4.jpeg", price:40},

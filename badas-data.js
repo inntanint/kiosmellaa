@@ -14,7 +14,7 @@ const ITEMS = [
   {name:"Lilin Lebah", level:48, category:"Badas Lebah", img:"images/16.3.jpeg", price:30},
 
   {name:"Ikan", level:27, category:"Badas Kolam", img:"images/50.1.jpeg", price:20},
-  {name:"Daging Kerang", level:27, category:"Badas Kolam", img:"images/50.4.jpeg", price:100},
+  {name:"Daging Kerang", level:27, category:"Badas Kolam", img:"images/50.4.jpeg", price:80},
   {name:"Lobster", level:44, category:"Badas Kolam", img:"images/50.2.jpeg", price:30},
   {name:"Bulu Bebek", level:50, category:"Badas Kolam", img:"images/50.3.jpeg", price:30},
 

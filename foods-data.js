@@ -1,8 +1,8 @@
 // Data makanan Hay Day — edit / tambah item di sini
 const ITEMS = [
   {name:"Roti", level:2, category:"Toko Roti", img:"images/1.1.jpeg", price:10},
-  {name:"Roti Jagung", level:7, category:"Toko Roti", img:"images/1.2.jpeg", price:40},
-  {name:"Kue Kukis", level:10, category:"Toko Roti", img:"images/1.3.jpeg", price:40},
+  {name:"Roti Jagung", level:7, category:"Toko Roti", img:"images/1.2.jpeg", price:30},
+  {name:"Kue Kukis", level:10, category:"Toko Roti", img:"images/1.3.jpeg", price:30},
   {name:"Muffin Rasberi", level:19, category:"Toko Roti", img:"images/1.4.jpeg", price:40},
   {name:"Muffin Beri Hitam", level:26, category:"Toko Roti", img:"images/1.5.jpeg", price:40},
   {name:"Muffin Bluberi", level:33, category:"Toko Roti", img:"images/1.6.jpeg", price:40},
@@ -24,7 +24,7 @@ const ITEMS = [
   {name:"Gula Putih", level:13, category:"Pabrik Gula", img:"images/3.2.jpeg", price:20},
   {name:"Sirup", level:18, category:"Pabrik Gula", img:"images/3.3.jpeg", price:20},
 
-  {name:"Berondong Jagung", level:8, category:"Panci Berondong", img:"images/4.1.jpeg", price:40},
+  {name:"Berondong Jagung", level:8, category:"Panci Berondong", img:"images/4.1.jpeg", price:30},
   {name:"Berondong Mentega", level:16, category:"Panci Berondong", img:"images/4.2.jpeg", price:40},
   {name:"Berondong Pedas", level:25, category:"Panci Berondong", img:"images/4.3.jpeg", price:40},
   {name:"Berondong Madu", level:40, category:"Panci Berondong", img:"images/4.4.jpeg", price:40},
@@ -36,9 +36,9 @@ const ITEMS = [
   {name:"Hamburger", level:18, category:"Panggangan BBQ", img:"images/5.3.jpeg", price:40},
   {name:"Sate Domba Muda", level:25, category:"Panggangan BBQ", img:"images/5.4.jpeg", price:40},
   {name:"Burger Ikan", level:27, category:"Panggangan BBQ", img:"images/5.5.jpeg", price:40},
-  {name:"Kerang Rebus", level:27, category:"Panggangan BBQ", img:"images/5.18.jpeg", price:100},
+  {name:"Kerang Rebus", level:27, category:"Panggangan BBQ", img:"images/5.18.jpeg", price:80},
   {name:"Tomat Panggang", level:30, category:"Panggangan BBQ", img:"images/5.6.jpeg", price:40},
-  {name:"Kerang Bakar", level:27, category:"Panggangan BBQ", img:"images/5.19.jpeg", price:100},
+  {name:"Kerang Bakar", level:27, category:"Panggangan BBQ", img:"images/5.19.jpeg", price:80},
   {name:"Kentang Panggang", level:35, category:"Panggangan BBQ", img:"images/5.7.jpeg", price:40},
   {name:"Fish and Chips", level:41, category:"Panggangan BBQ", img:"images/5.8.jpeg", price:40},
   {name:"Tusuk Lobster", level:48, category:"Panggangan BBQ", img:"images/5.9.jpeg", price:40},
@@ -166,7 +166,7 @@ const ITEMS = [
   {name:"Sup Lobster", level:46, category:"Dapur Sup", img:"images/18.1.jpeg", price:40},
   {name:"Sup Domba Muda", level:46, category:"Dapur Sup", img:"images/18.2.jpeg", price:40},
   {name:"Sup Tomat", level:47, category:"Dapur Sup", img:"images/18.3.jpeg", price:40},
-  {name:"Sup Kerang", level:47, category:"Dapur Sup", img:"images/18.14.jpeg", price:100},
+  {name:"Sup Kerang", level:47, category:"Dapur Sup", img:"images/18.14.jpeg", price:80},
   {name:"Sup Labu", level:49, category:"Dapur Sup", img:"images/18.4.jpeg", price:40},
   {name:"Sup Asparagus", level:51, category:"Dapur Sup", img:"images/18.5.jpeg", price:40},
   {name:"Sup Ikan", level:53, category:"Dapur Sup", img:"images/18.6.jpeg", price:40},
@@ -213,7 +213,7 @@ const ITEMS = [
   {name:"Saus Markisa", level:100, category:"Pembuat Saus", img:"images/22.10.jpeg", price:40},
 
   {name:"Sushi Gulung", level:56, category:"Gerai Sushi", img:"images/23.1.jpeg", price:40},
-  {name:"Sushi Kerang", level:56, category:"Gerai Sushi", img:"images/23.6.jpeg", price:100},
+  {name:"Sushi Kerang", level:56, category:"Gerai Sushi", img:"images/23.6.jpeg", price:80},
   {name:"Sushi Lobster", level:59, category:"Gerai Sushi", img:"images/23.2.jpeg", price:40},
   {name:"Sushi Telur", level:63, category:"Gerai Sushi", img:"images/23.3.jpeg", price:40},
   {name:"Sushi Gulung Besar", level:76, category:"Gerai Sushi", img:"images/23.4.jpeg", price:40},
@@ -273,7 +273,7 @@ const ITEMS = [
   {name:"Tiara Bunga", level:86, category:"Pembuat Topi", img:"images/30.4.jpeg", price:40},
 
   {name:"Gnocchi", level:72, category:"Dapur Pasta", img:"images/31.1.jpeg", price:40},
-  {name:"Linguine Kerang", level:73, category:"Dapur Pasta", img:"images/31.8.jpeg", price:100},
+  {name:"Linguine Kerang", level:73, category:"Dapur Pasta", img:"images/31.8.jpeg", price:80},
   {name:"Lasagna Sayur", level:74, category:"Dapur Pasta", img:"images/31.2.jpeg", price:40},
   {name:"Pasta Lobster", level:79, category:"Dapur Pasta", img:"images/31.3.jpeg", price:40},
   {name:"Pasta Carbonara", level:83, category:"Dapur Pasta", img:"images/31.4.jpeg", price:40},

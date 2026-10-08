@@ -247,14 +247,20 @@
         alert('Keranjang masih kosong, yuk pilih barang dulu.');
         return;
       }
-      const lines = cartEntries.map(([,f])=>{
-        const subtotal = f.price * f.qty;
-        return `• ${f.name} x${f.qty} = ${rupiah(subtotal)}`;
-      });
+      const sorted = [...cartEntries].sort((a,b)=>
+  a[1].qty - b[1].qty || a[1].name.localeCompare(b[1].name)
+);
+const lines = [];
+let prevQty = null;
+sorted.forEach(([,f])=>{
+  if (prevQty !== null && f.qty !== prevQty) lines.push('');
+  lines.push(`• ${f.name} x${f.qty} = ${rupiah(f.price*f.qty)}`);
+  prevQty = f.qty;
+});
       const totalPrice = cartEntries.reduce((s,[,f])=> s + f.price*f.qty, 0);
       const totalQty = cartEntries.reduce((s,[,f])=> s + f.qty, 0);
       const message =
-        `Halo Kios Mellaa, saya ingin melakukan pemesanan berikut:\n\n` +
+        `Halo Kios Mellaa, saya mau pesan:\n\n` +
         lines.join('\n') +
         `\n\nTotal Barang: ${totalQty} item` +
         `\nTotal Harga: ${rupiah(totalPrice)}`;

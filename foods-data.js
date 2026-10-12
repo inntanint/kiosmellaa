@@ -36,9 +36,9 @@ const ITEMS = [
   {name:"Hamburger", level:18, category:"Panggangan BBQ", img:"images/5.3.jpeg", price:40},
   {name:"Sate Domba Muda", level:25, category:"Panggangan BBQ", img:"images/5.4.jpeg", price:40},
   {name:"Burger Ikan", level:27, category:"Panggangan BBQ", img:"images/5.5.jpeg", price:40},
-  {name:"Kerang Rebus", level:27, category:"Panggangan BBQ", img:"images/5.18.jpeg", price:80},
+  {name:"Kerang Rebus", level:27, category:"Panggangan BBQ", img:"images/5.18.jpeg", price:40},
   {name:"Tomat Panggang", level:30, category:"Panggangan BBQ", img:"images/5.6.jpeg", price:40},
-  {name:"Kerang Bakar", level:27, category:"Panggangan BBQ", img:"images/5.19.jpeg", price:80},
+  {name:"Kerang Bakar", level:27, category:"Panggangan BBQ", img:"images/5.19.jpeg", price:40},
   {name:"Kentang Panggang", level:35, category:"Panggangan BBQ", img:"images/5.7.jpeg", price:40},
   {name:"Fish and Chips", level:41, category:"Panggangan BBQ", img:"images/5.8.jpeg", price:40},
   {name:"Tusuk Lobster", level:48, category:"Panggangan BBQ", img:"images/5.9.jpeg", price:40},
@@ -166,7 +166,7 @@ const ITEMS = [
   {name:"Sup Lobster", level:46, category:"Dapur Sup", img:"images/18.1.jpeg", price:40},
   {name:"Sup Domba Muda", level:46, category:"Dapur Sup", img:"images/18.2.jpeg", price:40},
   {name:"Sup Tomat", level:47, category:"Dapur Sup", img:"images/18.3.jpeg", price:40},
-  {name:"Sup Kerang", level:47, category:"Dapur Sup", img:"images/18.14.jpeg", price:80},
+  {name:"Sup Kerang", level:47, category:"Dapur Sup", img:"images/18.14.jpeg", price:40},
   {name:"Sup Labu", level:49, category:"Dapur Sup", img:"images/18.4.jpeg", price:40},
   {name:"Sup Asparagus", level:51, category:"Dapur Sup", img:"images/18.5.jpeg", price:40},
   {name:"Sup Ikan", level:53, category:"Dapur Sup", img:"images/18.6.jpeg", price:40},
@@ -213,7 +213,7 @@ const ITEMS = [
   {name:"Saus Markisa", level:100, category:"Pembuat Saus", img:"images/22.10.jpeg", price:40},
 
   {name:"Sushi Gulung", level:56, category:"Gerai Sushi", img:"images/23.1.jpeg", price:40},
-  {name:"Sushi Kerang", level:56, category:"Gerai Sushi", img:"images/23.6.jpeg", price:80},
+  {name:"Sushi Kerang", level:56, category:"Gerai Sushi", img:"images/23.6.jpeg", price:40},
   {name:"Sushi Lobster", level:59, category:"Gerai Sushi", img:"images/23.2.jpeg", price:40},
   {name:"Sushi Telur", level:63, category:"Gerai Sushi", img:"images/23.3.jpeg", price:40},
   {name:"Sushi Gulung Besar", level:76, category:"Gerai Sushi", img:"images/23.4.jpeg", price:40},
@@ -273,7 +273,7 @@ const ITEMS = [
   {name:"Tiara Bunga", level:86, category:"Pembuat Topi", img:"images/30.4.jpeg", price:40},
 
   {name:"Gnocchi", level:72, category:"Dapur Pasta", img:"images/31.1.jpeg", price:40},
-  {name:"Linguine Kerang", level:73, category:"Dapur Pasta", img:"images/31.8.jpeg", price:80},
+  {name:"Linguine Kerang", level:73, category:"Dapur Pasta", img:"images/31.8.jpeg", price:40},
   {name:"Lasagna Sayur", level:74, category:"Dapur Pasta", img:"images/31.2.jpeg", price:40},
   {name:"Pasta Lobster", level:79, category:"Dapur Pasta", img:"images/31.3.jpeg", price:40},
   {name:"Pasta Carbonara", level:83, category:"Dapur Pasta", img:"images/31.4.jpeg", price:40},
@@ -381,6 +381,13 @@ const ITEMS = [
   {name:"Susu Kocok Vanila", level:124, category:"Stan Susu Kocok", img:"images/49.1.jpeg", price:40},
   {name:"Susu Kocok Moka", level:125, category:"Stan Susu Kocok", img:"images/49.2.jpeg", price:40},
   {name:"Susu Kocok Buah", level:126, category:"Stan Susu Kocok", img:"images/49.3.jpeg", price:40},
+
+  {name:"Daging Kerang", level:27, category:"Food Kerang", img:"images/50.4.jpeg", price:40},
+  {name:"Kerang Rebus", level:27, category:"Food Kerang", img:"images/5.18.jpeg", price:40},
+  {name:"Kerang Bakar", level:27, category:"Food Kerang", img:"images/5.19.jpeg", price:40},
+  {name:"Sup Kerang", level:47, category:"Food Kerang", img:"images/18.14.jpeg", price:40},
+  {name:"Sushi Kerang", level:56, category:"Food Kerang", img:"images/23.6.jpeg", price:40},
+  {name:"Linguine Kerang", level:73, category:"Food Kerang", img:"images/31.8.jpeg", price:40},
 
 ];
 ITEMS.forEach((f,i)=> f.id = i);

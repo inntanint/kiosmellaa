@@ -1,12 +1,12 @@
 // Data barang Badas — field: nama, level, category, img, harga
 const ITEMS = [
-  {name:"Krim", level:6, category:"Badas Susu", img:"images/2.1.jpeg", price:20},
-  {name:"Mentega", level:9, category:"Badas Susu", img:"images/2.2.jpeg", price:20},
-  {name:"Keju Sapi", level:12, category:"Badas Susu", img:"images/2.3.jpeg", price:20},
-  {name:"Keju Kambing", level:33, category:"Badas Susu", img:"images/2.4.jpeg", price:30},
+  {name:"Krim", level:6, category:"Badas Susu", img:"images/2.1.jpeg", price:15},
+  {name:"Mentega", level:9, category:"Badas Susu", img:"images/2.2.jpeg", price:15},
+  {name:"Keju Sapi", level:12, category:"Badas Susu", img:"images/2.3.jpeg", price:15},
+  {name:"Keju Kambing", level:33, category:"Badas Susu", img:"images/2.4.jpeg", price:20},
 
-  {name:"Gula Coklat", level:7, category:"Badas Gula", img:"images/3.1.jpeg", price:20},
-  {name:"Gula Putih", level:13, category:"Badas Gula", img:"images/3.2.jpeg", price:20},
+  {name:"Gula Coklat", level:7, category:"Badas Gula", img:"images/3.1.jpeg", price:15},
+  {name:"Gula Putih", level:13, category:"Badas Gula", img:"images/3.2.jpeg", price:15},
   {name:"Sirup", level:18, category:"Badas Gula", img:"images/3.3.jpeg", price:20},
 
   {name:"Sarang Madu", level:39, category:"Badas Lebah", img:"images/16.1.jpeg", price:20},

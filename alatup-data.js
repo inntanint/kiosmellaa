@@ -5,12 +5,12 @@ const ITEMS = [
     {name:"7x89 Pcs Mix BEM", category:"7 Hari", img:"images/bem.jpeg", price:15000},
     {name:"30x89 Pcs Mix BEM", category:"30 Hari", img:"images/bem.jpeg", price:55000},
 
-    {name:"1x89 Pcs Mix SEM", category:"1 Hari", img:"images/sem.jpeg", price:3000},
-    {name:"7x89 Pcs Mix SEM", category:"7 Hari", img:"images/sem.jpeg", price:18000},
-    {name:"30x89 Pcs Mix SEM", category:"30 Hari", img:"images/sem.jpeg", price:60000},
+    {name:"1x89 Pcs Mix SEM", category:"1 Hari", img:"images/sem.jpeg", price:2500},
+    {name:"7x89 Pcs Mix SEM", category:"7 Hari", img:"images/sem.jpeg", price:15000},
+    {name:"30x89 Pcs Mix SEM", category:"30 Hari", img:"images/sem.jpeg", price:55000},
 
-    {name:"1x89 Pcs Mix LEM", category:"1 Hari", img:"images/lem.jpeg", price:2000},
-    {name:"7x89 Pcs Mix LEM", category:"7 Hari", img:"images/lem.jpeg", price:12000},
-    {name:"30x89 Pcs Mix LEM", category:"30 Hari", img:"images/lem.jpeg", price:50000},
+    {name:"1x89 Pcs Mix LEM", category:"1 Hari", img:"images/lem.jpeg", price:2500},
+    {name:"7x89 Pcs Mix LEM", category:"7 Hari", img:"images/lem.jpeg", price:15000},
+    {name:"30x89 Pcs Mix LEM", category:"30 Hari", img:"images/lem.jpeg", price:55000},
 
 ];
